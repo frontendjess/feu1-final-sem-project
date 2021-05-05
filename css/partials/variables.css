@@ -1,0 +1,10 @@
+:root {
+	--main-font: 'Josefin Sans', sans-serif;
+	--secondary-font: 'Lily Script One', cursive;
+	--body-font: 'Josefin Sans', sans-serif;
+	--main-font-color-dark: #000;
+	--secondary-font-color: #fff;
+	--hover-font-color: #9e5252;
+	--body-font-color: #000;
+	--light-bg-color: #fff9f9;
+}

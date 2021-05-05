@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import './partials/home.css';
+@import './partials/layout.css';
+@import './partials/variables.css';
+
+/* media queries always go at the end dont add anything below this */
+@import './partials/media-queries.css';

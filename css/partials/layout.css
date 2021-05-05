@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: var(--body-font);
+	font-size: 10px;
+	color: var(--body-font);
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+section {
+	padding: 3.9rem 0;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: 1.6rem;
+}
+
+.blog-posts-container img {
+	width: 20%;
+}
