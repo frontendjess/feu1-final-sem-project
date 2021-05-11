@@ -17,7 +17,7 @@ async function getRecipes(url) {
             		<div class="card__body">
                         <img src="${res[i]['featured_media_src_url']}">
                         <h2 class="">${res[i]['title'].rendered}</h2>
-               
+                        <div class="content">${res[i]['content'].rendered}</div>
             		</div>
         		</div>
     		`;
