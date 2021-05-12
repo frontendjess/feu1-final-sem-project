@@ -37,3 +37,7 @@
 		font-size: 1.3rem;
 	}
 }
+
+/* mobile version */
+@media screen and (max-width: 899px) {
+}

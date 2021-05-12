@@ -3,7 +3,7 @@
 	display: block;
 	top: 50%;
 	z-index: 2;
-	color: #000;
+	color: #9e5252;
 	text-transform: uppercase;
 	padding: 9px 12px;
 	background-color: transparent;
@@ -25,10 +25,10 @@
 	border-color: #000;
 }
 .glide__arrow--left {
-	left: -10%;
+	left: -4.5rem;
 }
 .glide__arrow--right {
-	right: -8%;
+	right: -4.5rem;
 }
 .glide__arrow--disabled {
 	opacity: 0.33;
@@ -75,4 +75,14 @@
 	cursor: grabbing;
 	cursor: -moz-grabbing;
 	cursor: -webkit-grabbing;
+}
+
+/* media queries */
+@media screen and (max-width: 899px) {
+	.glide__arrow--left {
+		left: -1.5rem;
+	}
+	.glide__arrow--right {
+		right: -1.5rem;
+	}
 }
