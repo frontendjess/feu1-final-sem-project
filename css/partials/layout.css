@@ -49,6 +49,8 @@ header {
 	top: 0;
 	left: 0;
 	z-index: 1;
+	/* border: solid 1px hotpink; */
+	position: relative;
 }
 
 .nav {
@@ -140,9 +142,6 @@ header {
 }
 
 /* main */
-.filler {
-	height: 70vh;
-}
 
 /* footer */
 footer {
@@ -215,6 +214,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 }
+
 /* blog post specific page */
 
 .blog-posts-container img {

@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Foodie2flames - a healthy food recipe blog</title>
 		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/glide.core.min.css" />
 
 		<!--Font awesome CDN-->
 		<script
@@ -45,8 +46,40 @@
 			</div>
 		</header>
 
+
+	
 		<main>
-			<div class="filler"></div>
+			<div class="hero" id="hero">
+				<div class="container">
+					<h1>A healthy food recipe blog</h1>
+					<h2>by Jessica & Le'Von</h2>
+				</div>
+			</div>
+
+			<section class="slider">
+				<div class="container">
+					<div class="glide">
+						<div class="glide__track" data-glide-el="track">
+						  <ul class="glide__slides">
+							<li class="glide__slide">
+								<img src="https://foodie2flamesblog.lifewithhoney.com/wp-content/uploads/2021/05/rsz_1fishtacos.jpg" alt="fish tacos">
+							</li>
+							<li class="glide__slide">
+								<img src="https://foodie2flamesblog.lifewithhoney.com/wp-content/uploads/2021/05/bluecornsalsa-min.png" alt="blue corn chips and salsa">
+							</li>
+							<li class="glide__slide">
+								<img src="https://foodie2flamesblog.lifewithhoney.com/wp-content/uploads/2021/05/oatmeal-min.png" alt="oatmeal berry bowl">
+							</li>
+						  </ul>
+						</div>
+
+						<div class="glide__arrows" data-glide-el="controls">
+							<button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+							<button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 
 		<footer>
@@ -92,5 +125,13 @@
 
 		<script src="./js/components/alert.js"></script>
 		<script src="./js/styles.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+		<script>
+			const config = {
+				type: 'carousel',
+				perView: 4
+			}
+			new Glide('.glide', config).mount()
+		  </script>
 	</body>
 </html>
