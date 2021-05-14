@@ -30,7 +30,6 @@ async function getRecipes(url) {
 		);
 	} finally {
 		// you can finally do something here like hide the loading gif
-		// It is optional
 
 		document.querySelector('#loadingGif').innerHTML = '';
 	}
