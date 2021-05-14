@@ -43,6 +43,20 @@
 	}
 }
 
-/* mobile version */
+/* tablet - mobile version */
 @media screen and (max-width: 899px) {
+	.hero h1 {
+		font-size: 2.6rem;
+	}
+
+	.hero h2 {
+		font-size: 1.8rem;
+	}
+}
+
+/* mobile version */
+@media screen and (max-width: 500px) {
+	.carousel {
+		margin-top: -15vh;
+	}
 }

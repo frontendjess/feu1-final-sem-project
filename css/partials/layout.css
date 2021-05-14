@@ -18,7 +18,7 @@ body {
 }
 
 section {
-	padding: 3.9rem 0;
+	padding: 3.9rem 0 0 0;
 	overflow: hidden;
 }
 
@@ -172,6 +172,7 @@ header {
 
 /* footer */
 footer {
+	margin-top: 6.9rem;
 	padding: 6.6rem 0 2rem 0;
 	background-color: #fff;
 	color: #000;
@@ -195,6 +196,11 @@ footer {
 	color: #fff;
 	font-size: 2rem;
 	padding: 2rem;
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+	border: solid 1px #fff;
 }
 
 .footer-flame-logo {
