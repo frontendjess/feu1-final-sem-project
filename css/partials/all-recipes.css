@@ -33,3 +33,26 @@
 	letter-spacing: 1rem;
 	color: var(--secondary-font-color);
 }
+
+.main--all-recipes h1 {
+	text-align: center;
+}
+
+.card {
+	display: inline-block;
+	width: 30%;
+	padding: 25px;
+	margin: 25px;
+	background-color: whitesmoke;
+}
+
+.card__image {
+	background-size: cover;
+}
+
+.card__link {
+	margin-top: -4rem;
+	width: 80%;
+	padding: 2.4rem 4.2rem;
+	border: solid 1px hotpink;
+}

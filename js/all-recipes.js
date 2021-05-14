@@ -12,12 +12,13 @@ async function getRecipes(url) {
 		const res = jsonResult;
 
 		for (let i = 0; i < res.length; i++) {
-			document.querySelector('.blog-posts-container').innerHTML += `
+			document.querySelector('.all-recipes-container').innerHTML += `
         		<div class="card">
             		<div class="card__body">
-                        <img src="${res[i]['featured_media_src_url']}">
-                        <h2 class="">${res[i]['title'].rendered}</h2>
-                        <div class="content">${res[i]['content'].rendered}</div>
+                        <img class="card__image" src="${res[i]['featured_media_src_url']}">
+                        	<div class="card__link">
+								<a href="details.html?id=${res[i].id}">${res[i]['title'].rendered}</a>
+							</div>
             		</div>
         		</div>
     		`;
