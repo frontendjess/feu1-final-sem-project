@@ -36,6 +36,11 @@
 	.nav-link {
 		font-size: 1.3rem;
 	}
+
+	/* ome page main */
+	.about-us-links-container {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
 
 /* mobile version */
