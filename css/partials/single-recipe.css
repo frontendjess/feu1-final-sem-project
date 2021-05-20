@@ -18,7 +18,7 @@
 	display: flex;
 	width: 70%;
 	padding: 2.4rem;
-	margin: 0 auto;
+	margin: 4.8rem auto;
 }
 
 .wp-block-column {
@@ -33,6 +33,7 @@
 	background-color: var(--light-bg-color);
 	text-align: center;
 	padding: 4.8rem;
+	margin-top: 4.8rem;
 }
 
 .single-recipe-details-container h2,

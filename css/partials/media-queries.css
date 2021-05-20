@@ -41,6 +41,11 @@
 	.about-us-links-container {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
+
+	/* all recipes page */
+	.all-recipes-container {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
 
 /* tablet - mobile version */
