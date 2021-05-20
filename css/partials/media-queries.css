@@ -46,6 +46,20 @@
 	.all-recipes-container {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
+
+	/* single recipe page*/
+	.recipe__image {
+		max-width: 40%;
+	}
+
+	.wp-block-columns {
+		display: flex;
+		width: 70%;
+	}
+
+	.recipe-ingredients-directions-container {
+		display: flex;
+	}
 }
 
 /* tablet - mobile version */
