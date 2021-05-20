@@ -44,22 +44,32 @@ h1 {
 h2 {
 	font-size: 2.8rem;
 	line-height: 4.48rem;
+	letter-spacing: 0.28rem;
 }
 
 h3 {
 	font-size: 2.4rem;
 	line-height: 3.84rem;
+	letter-spacing: 0.24rem;
 }
 
 h4 {
 	font-size: 2rem;
 	line-height: 3.2rem;
 	font-weight: 700;
+	letter-spacing: 0.2rem;
 }
 
 h5 {
 	font-size: 1.8rem;
 	line-height: 2.88rem;
+	letter-spacing: 0.18rem;
+}
+
+h6 {
+	font-size: 1.6rem;
+	line-height: 2.56rem;
+	letter-spacing: 0.16rem;
 }
 
 .container {

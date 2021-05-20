@@ -1,9 +1,70 @@
 .recipe__image {
 	display: flex;
 	justify-content: center;
-	margin: 0 auto;
-	max-width: 50%;
+	margin: 2.4rem auto 0 auto;
+	max-width: 40%;
 }
 
-.blog-post-paragraph {
+.single-recipe-heading {
+	text-align: center;
+}
+
+.single-recipe-container .wp-block-columns {
+	/* margin-top: 2.4rem; */
+}
+
+.wp-block-columns {
+	/* border: solid 1px hotpink; */
+	display: flex;
+	width: 70%;
+	padding: 2.4rem;
+	margin: 0 auto;
+}
+
+.wp-block-column {
+	/* border: solid 1px blue; */
+}
+
+.wp-block-columns h5 {
+	text-transform: uppercase;
+}
+
+.single-recipe-details-container {
+	background-color: var(--light-bg-color);
+	text-align: center;
+	padding: 4.8rem;
+}
+
+.single-recipe-details-container h2,
+.single-recipe-details-container h3,
+.single-recipe-details-container h4 {
+	text-transform: uppercase;
+}
+
+.single-recipe-details-container ul {
+	font-size: 1.6rem;
+	display: inline-block;
+	text-align: left;
+}
+
+.single-recipe-details-container p {
+	text-align: left;
+	margin-top: 2.4rem;
+}
+
+.recipe-ingredients-directions-container {
+	display: flex;
+}
+
+.recipe-ingredients-container,
+.recipe-directions-container {
+	margin: 0 auto;
+	padding: 2.4rem;
+	flex-basis: 40%;
+	line-height: 2.56rem;
+}
+
+.recipe-notes {
+	width: 50%;
+	margin: 0 auto;
 }
