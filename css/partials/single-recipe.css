@@ -78,7 +78,8 @@
 }
 
 .recipe-notes {
-	width: 50%;
+	width: 100%;
+	padding: 2.4rem;
 	margin: 0 auto;
 }
 
