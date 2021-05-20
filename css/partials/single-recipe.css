@@ -1,3 +1,12 @@
+.single-recipe a {
+	color: var(--hover-font-color);
+	transition: color 0.5s;
+}
+
+.single-recipe a:hover {
+	color: var(--main-font);
+}
+
 .view-all-recipes {
 	padding-top: 0;
 }
@@ -35,7 +44,7 @@
 .single-recipe-details-container {
 	background-color: var(--light-bg-color);
 	text-align: center;
-	padding: 4.8rem;
+	padding: 2.4rem 0;
 	margin-top: 4.8rem;
 }
 
@@ -71,4 +80,12 @@
 .recipe-notes {
 	width: 50%;
 	margin: 0 auto;
+}
+
+.recipe-p-side-note {
+	font-style: italic;
+}
+
+.recipe-directions-container h6 {
+	text-transform: uppercase;
 }
