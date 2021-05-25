@@ -80,3 +80,7 @@
 .card__link a:hover {
 	color: var(--hover-font-color);
 }
+
+.all-recipes-container:nth-child(n + 10) {
+	display: none;
+}
