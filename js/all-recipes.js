@@ -23,12 +23,6 @@ async function getRecipes(url) {
         		</div>
     		`;
 		}
-
-		// for (let j = 10; j > 10; j++) {
-		// 	document.querySelector('.load-more-posts').innerHTML += `
-		// 		<button>
-		// 	`;
-		// }
 	} catch (error) {
 		// show the user some error
 		document.querySelector('#alert').innerHTML = showAlertTouser(
