@@ -81,6 +81,22 @@
 	color: var(--hover-font-color);
 }
 
-.all-recipes-container:nth-child(n + 10) {
+.load-more-container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.card:nth-child(-1n + 11) {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.card:nth-child(1n + 11) {
 	display: none;
+	border: solid 2px red;
+}
+
+.open-load-more {
+	display: grid;
+	grid-template-columns: 1fr;
 }

@@ -58,6 +58,9 @@
 			<section class="all-recipes">
 				<h1>View all recipes</h1>
 				<div class="container all-recipes-container"></div>
+				<div class="container load-more-container">
+					<a href="#" class="load-more">Load more recipes</a>
+				</div>
 			</section>
 
 
@@ -104,6 +107,13 @@
 			</div>
 		</footer>
 
+		<script>let loadMoreToggler = document.querySelector('.load-more');
+
+			loadMoreToggler.addEventListener('click', function () {
+				document.querySelector('.card:nth-child(1n + 11)').style.display = 'grid';
+				document.querySelector('.card:nth-child(1n + 12)').style.display = 'grid';
+			});
+			</script>
 		<script src="js/components/alert.js"></script>
 		<script src="js/all-recipes.js"></script>
 	</body>
