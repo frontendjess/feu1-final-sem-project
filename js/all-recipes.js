@@ -6,7 +6,7 @@ async function getRecipes(url) {
     		<img class="loadingGif" src="https://hackernoon.com/images/0*4Gzjgh9Y7Gu8KEtZ.gif">
  		 `;
 		const response = await fetch(
-			'https://foodie2flamesblog.lifewithhoney.com/wp-json/wp/v2/posts'
+			'https://foodie2flamesblog.lifewithhoney.com/wp-json/wp/v2/posts/?per_page=100'
 		);
 		const jsonResult = await response.json();
 		const res = jsonResult;
