@@ -93,7 +93,6 @@
 
 .card:nth-child(1n + 11) {
 	display: none;
-	border: solid 2px red;
 }
 
 .open-load-more {
