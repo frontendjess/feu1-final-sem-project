@@ -20,7 +20,7 @@ async function getRecipe(recipeId) {
 
 		document.querySelector('.single-recipe-container').innerHTML += `
         		<h1 class="single-recipe-heading">${recipeInfo.title.rendered}</h1>
-                <img class="recipe__image" src="${recipeInfo['featured_media_src_url']}">
+                <img class="recipe__image" id="imageModal" alt="${recipeInfo.title.rendered}" src="${recipeInfo['featured_media_src_url']}">
                 ${recipeInfo.content.rendered}
     		`;
 	} catch (error) {

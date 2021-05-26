@@ -90,3 +90,15 @@
 .recipe-directions-container h6 {
 	text-transform: uppercase;
 }
+
+.print-recipe-container {
+	text-align: center;
+}
+
+.print-recipe-link {
+	text-transform: uppercase;
+	font-family: var(--main-font);
+	letter-spacing: 0.18rem;
+	font-size: 1.8rem;
+	border: none;
+}
