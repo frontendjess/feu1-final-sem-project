@@ -103,3 +103,19 @@
 .hide-load-more {
 	display: none;
 }
+
+.load-more {
+	padding: 2.4rem 4.2rem;
+	text-transform: uppercase;
+	font-family: var(--main-font);
+	letter-spacing: 0.18rem;
+	font-size: 1.8rem;
+	border: none;
+	color: var(--main-font-color-dark);
+	background-color: var(--light-bg-color);
+	transition: color.5s;
+}
+
+.load-more:hover {
+	color: var(--hover-font-color);
+}
