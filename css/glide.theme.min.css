@@ -2,7 +2,7 @@
 	position: absolute;
 	display: block;
 	top: 50%;
-	z-index: 2;
+	/* z-index: 2; */
 	color: #fff;
 	text-transform: uppercase;
 	padding: 9px 12px;
