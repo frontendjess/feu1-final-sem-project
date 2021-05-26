@@ -15,7 +15,7 @@ async function getRecipes(url) {
 			document.querySelector('.all-recipes-container').innerHTML += `
         		<div class="card">
             		<div class="card__body">
-                        <img class="card__image" src="${res[i]['featured_media_src_url']}">
+                        <img class="card__image" alt="${res[i].title.rendered}" src="${res[i]['featured_media_src_url']}">
                         	<div class="card__link">
 								<a href="single-recipe.html?id=${res[i].id}">${res[i]['title'].rendered}</a>
 							</div>
