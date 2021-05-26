@@ -99,3 +99,7 @@
 	display: grid;
 	grid-template-columns: 1fr;
 }
+
+.hide-load-more {
+	display: none;
+}
