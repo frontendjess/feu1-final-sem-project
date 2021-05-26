@@ -16,6 +16,61 @@
 	justify-content: center;
 	margin: 2.4rem auto 0 auto;
 	max-width: 100%;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.recipe__image:hover {
+	opacity: 0.8;
+}
+
+.modal {
+	width: 40%;
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+.modal-content {
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+
+.image-caption {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	width: 100%;
+	max-width: 25%;
+	color: var(--secondary-font-color);
+	padding: 2.4rem;
+	font-size: 1.6rem;
+}
+
+.close-modal {
+	position: absolute;
+	top: 1.5rem;
+	right: 3.5rem;
+	color: #fff;
+	font-size: 5rem;
+	transition: 0.3s;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+	color: var(--hover-gray);
+	cursor: pointer;
 }
 
 .single-recipe-heading {
