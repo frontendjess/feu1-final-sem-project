@@ -256,6 +256,8 @@ footer {
 .sub-footer {
 	display: flex;
 	justify-content: space-between;
+	margin-left: 4.8rem;
+	margin-right: 4.8rem;
 }
 
 /* blog post specific page - all recipes page*/
