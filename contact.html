@@ -22,7 +22,7 @@
 		></script>
 
 		<!-- Hotjar Tracking Code for https://foodie2flames.netlify.app/ -->
-		<script>
+		<!-- <script>
 			(function (h, o, t, j, a, r) {
 				h.hj =
 					h.hj ||
@@ -36,7 +36,7 @@
 				r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
 				a.appendChild(r);
 			})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-		</script>
+		</script> -->
 	</head>
 	<body>
 		<header>
@@ -69,56 +69,48 @@
 
 		<main class="main--all-recipes">
 			<section>
-				<div class="container">
-					<h1>About us</h1>
-					<div class="about-us-container">
-						<div class="about-us-image">
-							<img src="./img/cheers.jpg" alt="Jessica & Le'von food travels" />
-						</div>
-						<div class="about-us-text">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Blandit volutpat maecenas volutpat blandit aliquam etiam erat
-								velit. Dignissim enim sit amet venenatis urna cursus eget.
-								Commodo nulla facilisi nullam vehicula ipsum a arcu cursus.
-								Risus commodo viverra maecenas accumsan. Ultrices gravida dictum
-								fusce ut placerat orci. At risus viverra adipiscing at.
-								Pellentesque dignissim enim sit amet. Aliquam nulla facilisi
-								cras fermentum odio eu feugiat pretium. Ultrices neque ornare
-								aenean euismod elementum nisi quis eleifend quam. Posuere ac ut
-								consequat semper viverra nam. Rutrum quisque non tellus orci.
-								Aliquam eleifend mi in nulla posuere. Metus dictum at tempor
-								commodo. Vulputate dignissim suspendisse in est ante in nibh
-								mauris cursus. Gravida rutrum quisque non tellus orci.
-							</p>
+				<div class="container contact-container">
+					<h1>Contact us</h1>
+					<p class="contact-p">
+						You can email us at foodie2flames@gmail.com or use the contact form
+						below. We will get back to you as soon as possible.
+					</p>
+					<div class="contact-us-container">
+						<div class="form_div">
+							<form>
+								<!-- <label for="name" class="form-label">Name</label> -->
+								<input type="text" name="name" id="name" placeholder="Name" />
+								<p class="error nameError">Please enter a first name</p>
 
-							<p>
-								Magna eget est lorem ipsum. Risus feugiat in ante metus dictum
-								at tempor commodo. At risus viverra adipiscing at in tellus
-								integer feugiat scelerisque. Non pulvinar neque laoreet
-								suspendisse interdum consectetur libero id faucibus. Nunc
-								aliquet bibendum enim facilisis gravida neque convallis.
-								Volutpat ac tincidunt vitae semper quis lectus nulla at. Fusce
-								id velit ut tortor pretium viverra suspendisse potenti nullam.
-								Nibh tellus molestie nunc non blandit massa enim. Nec dui nunc
-								mattis enim ut tellus elementum. Ut diam quam nulla porttitor.
-								Id velit ut tortor pretium viverra suspendisse potenti.
-							</p>
+								<!-- <label for="email" class="form-label">Email</label> -->
+								<input
+									type="text"
+									name="email"
+									id="email"
+									placeholder="Email address"
+								/>
+								<p class="error emailError">Please enter a valid email</p>
 
-							<p>
-								Fermentum et sollicitudin ac orci phasellus. Viverra vitae
-								congue eu consequat. Ut tellus elementum sagittis vitae et leo
-								duis ut. Vulputate sapien nec sagittis aliquam malesuada
-								bibendum arcu vitae elementum. Feugiat in fermentum posuere urna
-								nec tincidunt praesent semper.
-							</p>
+								<!-- <label for="subject" class="form-label">Subject</label> -->
+								<input
+									type="text"
+									name="subject"
+									id="subject"
+									placeholder="Subject"
+								/>
+								<p class="error subjectError">Please enter a subject line</p>
 
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio
-								euismod lacinia at quis risus sed vulputate odio.
-							</p>
+								<!-- <label for="message" class="form-label">Address</label> -->
+								<input
+									type="text"
+									name="message"
+									id="message"
+									placeholder="Your message"
+								/>
+								<p class="error messageError">Please enter a message</p>
+
+								<button id="submit" class="submit-btn">Submit</button>
+							</form>
 						</div>
 					</div>
 				</div>
@@ -176,5 +168,6 @@
 
 		<script src="js/components/alert.js"></script>
 		<script src="./js/styles.js"></script>
+		<script src="./js/contact.js"></script>
 	</body>
 </html>

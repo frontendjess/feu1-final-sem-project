@@ -94,6 +94,12 @@
 	.about-us-text p {
 		padding: 0 0 2.4rem 0;
 	}
+
+	/* contact page */
+	.form_div {
+		width: 35%;
+		max-width: 100%;
+	}
 }
 
 /* tablet - mobile version */

@@ -4,6 +4,7 @@
 @import './partials/all-recipes.css';
 @import './partials/single-recipe.css';
 @import './partials/about-us.css';
+@import './partials/contact.css';
 @import './partials/variables.css';
 
 /* media queries always go at the end dont add anything below this */
