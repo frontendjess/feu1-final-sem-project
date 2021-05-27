@@ -47,6 +47,15 @@ submit.onclick = function (event) {
 		messageError.classList.add('show');
 		messageError.classList.remove('hide');
 	}
+
+	if (
+		testLen(name, 5) &&
+		subject.length >= 15 &&
+		validateEmail(email) &&
+		testLen(message, 25)
+	) {
+		alert('Message sent!');
+	}
 };
 
 function validateEmail(emailAddy) {
@@ -58,7 +67,6 @@ function validateEmail(emailAddy) {
 
 function testLen(elm, len) {
 	if (elm.length > len) {
-		alert('Message sent!');
 		return true;
 	} else {
 		return false;
