@@ -78,6 +78,22 @@
 		width: 50%;
 		padding: 0;
 	}
+
+	/* about us page */
+	.about-us-container {
+		flex-direction: row;
+	}
+
+	.about-us-image,
+	.about-us-text {
+		margin: 0 auto;
+		width: 50%;
+		padding: 2.4rem;
+	}
+
+	.about-us-text p {
+		padding: 0 0 2.4rem 0;
+	}
 }
 
 /* tablet - mobile version */

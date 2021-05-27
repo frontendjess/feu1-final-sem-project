@@ -77,19 +77,11 @@
 	text-align: center;
 }
 
-.single-recipe-container .wp-block-columns {
-	/* margin-top: 2.4rem; */
-}
-
 .wp-block-columns {
 	/* border: solid 1px hotpink; */
 	width: 100%;
 	padding: 0 2.4rem;
 	margin: 4.8rem auto;
-}
-
-.wp-block-column {
-	/* border: solid 1px blue; */
 }
 
 .wp-block-columns h5 {
