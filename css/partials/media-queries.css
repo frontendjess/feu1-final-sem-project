@@ -1,6 +1,7 @@
 /* desktop version */
 @media screen and (min-width: 900px) {
-	section {
+	section,
+	.section {
 		padding: 7.9rem;
 	}
 
