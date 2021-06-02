@@ -79,6 +79,11 @@ h6 {
 	padding: 2.4rem;
 }
 
+.section {
+	padding: 3.9rem 0 0 0;
+	overflow: hidden;
+}
+
 /* header */
 header {
 	width: 100%;
